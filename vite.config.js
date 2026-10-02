@@ -1,3 +1,3 @@
 export default {
-    base: '/BabyTimeMapper/',
+    base: '/daa5739-BabyTimeMapper/',
 }
