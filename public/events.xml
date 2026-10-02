@@ -1,118 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
-<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
- <track type="1" name="early">
+ <track type="1" name="Birth">
   <event>
-    <title>Julius Caesar invades Britain</title>
+    <title>Delia's Birthday</title>
     <date type="start">
-      <year>0080</year>
-      <era>BC</era>
+      <year>2004</year>
+      <era>AD</era>
     </date>
-    <date type="end">
-      <year>0054</year>
-      <era>BC</era>
-    </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
-  </event>
-
-  <event>
-    <title>Battle of Actium</title>
-    <date type="start">
-      <year>0031</year>
-      <month>09</month>
-      <era>BC</era>
-    </date>
-    <date type="end">
-    <year>0010</year>
-    <month>07</month>
-    <era>BC</era>
-    </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
+    <description>On October 26th, 2004, Delia Autumn Abramoski was born at Magee-Womens, UPMC Hamot.</description>
+    <lat>42.134935</lat>
+    <lon>-80.08585</lon>
   </event>
   </track>
  
- <track type="2" name="mid">
+ <track type="2" name="Childhood">
   <event>
-    <title>Storming of the Bastille</title>
+    <title>Keeping Busy</title>
     <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
+      <year>2010</year>
       <era>AD</era>
     </date>
-<!--    <date type="end">
-    </date>-->
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
-  </event>
- 
-  <event>
-    <title>Declaration of the Rights of Man</title>
-    <date type="start">
-      <year>1789</year>
-      <month>08</month>
-      <day>26</day>
+    <date type="end">
+      <year>2021</year>
       <era>AD</era>
     </date>
-  <!--  <date type="end">
-    </date>-->
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
-  </event>
- 
-  <event>
-    <title>Execution of Louis XVI</title>
-    <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
-      <era>AD</era>
-    </date>
-<!--    <date type="end">
-    </date>-->
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
+    <description>From ages 6-17, Delia is enrolled in gymnastics, tumbling, sideline and competition cheer. Lots of exercise, and lots of gold medals!</description>
+    <lat>42.127953</lat>
+    <lon>-80.082581</lon>
+    <!-- Since this event includes multiple locations, I decided to add the general coordinates for Erie, PA. -->
   </event>
  </track>
+ 
+  <track type="3" name="Teen Years-Present">
+  <event>
+    <title>First College Course</title>
+    <date type="start">
+      <year>2021</year>
+      <month>06</month>
+      <day>01</day>
+      <era>AD</era>
+    </date>
+    <date type="end">
+      <year>2021</year>
+      <month>08</month>
+      <day>15</day>
+      <era>AD</era>
+    </date>
+    <description>During the summer before her senior year of highschool, Delia decided to enroll in something called the LEADS program at Penn State Behrend. She was able to get 3 college credits that summer, and continued to do dual enrollment throughout her senior year of Highschool.</description>
+    <lat>42.120225</lat>
+    <lon>-79.982727</lon>
+  </event>
+    
+    <event>
+      <title>Present Day</title>
+      <date type="start">
+        <year>2026</year>
+        <month>10</month>
+        <day>02</day>
+        <era>AD</era>
+      </date>
+      <description>Delia just entered her senior year of college at Penn State Behrend. Although she switched her major a few times (ultimately making this her first senior year of 2), she's just happy that she found what she's passionate about.</description>
+      <lat>42.120225</lat>
+      <lon>-79.982727</lon>
+    </event>
+  </track>
    
- <track type="3" name="late">
+ <track type="4" name="Future">
    <event>
-     <title>Napoleon crowned Emperor</title>
+     <title>Anticipated Graduation Date</title>
      <date type="start">
-       <year>1804</year>
-       <month>12</month>
-       <day>02</day>
+       <year>2028</year>
+       <month>05</month>
+       <day>12</day>
        <era>AD</era>
      </date>
-     <date type="end">
-       <year>1814</year>
-       <era>AD</era>
-     </date>
-     <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
-      His first reign as Emperor ends when he abdicates in 1814</description>
-     <lat>48.8530</lat>
-     <lon>2.3499</lon>
-   </event>
-     
-   <event>
-     <title>New Event</title>
-     <date type="start">
-       <year>2000</year>
-       <era>AD</era>
-     </date>
-     <description>This is my new event (I couldn't think of anything else to add, sorry!)</description>
-     <lat>0.0000</lat>
-     <lon>0.0000</lon>
+     <description>Delia is anticipated to graduate from Penn State Behrend in Spring of 2028, majoring in Digital Media, Arts, and Technology, and minoring in Data Visualization.</description>
+     <lat>42.128506</lat>
+     <lon>-80.080807</lon>
    </event>
  </track>
 </events>
